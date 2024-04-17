@@ -20,7 +20,7 @@ ul li {
 .logo:hover {
   color: #404bbf;
 }
-.logo:active {
+.logo:focus {
   color: #404bbf;
 }
 .logo-studio {
@@ -95,10 +95,8 @@ a {
   color: #2e2f42;
   text-decoration: none;
 }
-.nav:hover {
-  color: #404bbf;
-}
-.nav:active {
+.nav:hover,
+.nav:focus {
   color: #404bbf;
 }
 
@@ -110,7 +108,7 @@ a {
   letter-spacing: 0.02em;
 }
 .address-info:hover,
-.address-info:active {
+.address-info:focus {
   color: #404bbf;
 }
 
@@ -126,7 +124,7 @@ a {
   cursor: pointer;
 }
 .button:hover,
-.button:active {
+.button:focus {
   background-color: #404bbf;
 }
 .footer {
