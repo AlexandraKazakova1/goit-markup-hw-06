@@ -24,20 +24,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="conteiner">
-        <nav>
+    <header class="head-nav">
+      <div class="conteiner-nav" class="conteiner">
+        <nav class="conteiner-nav-nav">
           <a class="logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
           >
-          <ul>
+          <ul class="conteiner-nav-menu">
             <li><a href="./index.html" class="nav">Studio</a></li>
             <li><a href="" class="nav">Portfolio</a></li>
             <li><a href="" class="nav">Contacts</a></li>
           </ul>
         </nav>
-        <address class="address">
-          <ul>
+        <address>
+          <ul class="address">
             <li>
               <a
                 class="address-info"
@@ -57,29 +57,30 @@
     </header>
     <main>
       <section class="title">
-        <div class="conteiner-title">
+        <div class="conteiner">
           <h1 class="title-text">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section>
+      <section class="our-advent">
         <div class="conteiner-advent">
-          <ul>
-            <li>
+          <h2 class="section-title">Our Portfolio</h2>
+          <ul class="list-advent">
+            <li class="list-advent-strategy">
               <h3 class="caption">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="list-advent-strategy">
               <h3 class="caption">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="list-advent-strategy">
               <h3 class="caption">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
@@ -97,9 +98,9 @@
         </div>
       </section>
       <section class="section-our-team">
-        <div class="conteiner-team">
+        <div class="container">
           <h2 class="section-title">Our Team</h2>
-          <ul>
+          <ul class="list-team">
             <li class="section-card">
               <img
                 src="./images/img.jpg"
@@ -107,8 +108,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="caption">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <div class="name-position">
+                <h3 class="caption-name">Mark Guerrero</h3>
+                <p class="text-position">Product Designer</p>
+              </div>
             </li>
             <li class="section-card">
               <img
@@ -117,8 +120,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="caption">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="name-position">
+                <h3 class="caption-name">Tom Ford</h3>
+                <p class="text-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="section-card">
               <img
@@ -127,8 +132,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="caption">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <div class="name-position">
+                <h3 class="caption-name">Camila Garcia</h3>
+                <p class="text-position">Marketing</p>
+              </div>
             </li>
             <li class="section-card">
               <img
@@ -137,25 +144,29 @@
                 width="264"
                 height="260"
               />
-              <h3 class="caption">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <div class="name-position">
+                <h3 class="caption-name">Daniel Wilson</h3>
+                <p class="text-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
-        <div class="conteiner-portfolio">
-          <h2 class="section-title">Our Portfolio</h2>
-          <ul>
-            <li>
+      <section class="portfolio">
+        <div class="conteiner">
+          <h2 class="section-title-portfolio">Our Portfolio</h2>
+          <ul class="list-portfolio">
+            <li class="list-portfolio-item">
               <img
                 src="./images/bankingapp.jpg"
                 alt="banking app"
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Banking App</h3>
-              <p class="text">App</p>
+              <div class="name-category">
+                <h3 class="caption-product">Banking App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
             <li>
               <img
@@ -164,8 +175,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Cashless Payment</h3>
-              <p class="text">Marketing</p>
+              <div class="name-category">
+                <h3 class="caption-product">Cashless Payment</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -174,8 +187,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Meditation App</h3>
-              <p class="text">App</p>
+              <div class="name-category">
+                <h3 class="caption-product">Meditation App</h3>
+                <p class="text">App</p>
+              </div>
             </li>
 
             <li>
@@ -185,8 +200,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Taxi Service</h3>
-              <p class="text">Marketing</p>
+              <div class="name-category">
+                <h3 class="caption-product">Taxi Service</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -195,7 +212,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Screen Illustrations</h3>
+              <div class="name-category"></div>
+              <h3 class="caption-product">Screen Illustrations</h3>
               <p class="text">Design</p>
             </li>
             <li>
@@ -205,15 +223,17 @@
                 width="360"
                 height="300"
               />
-              <h3 class="caption">Online Courses</h3>
-              <p class="text">Marketing</p>
+              <div class="name-category">
+                <h3 class="caption-product">Online Courses</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner-footer">
+      <div class="conteiner">
         <a class="logo-footer" href="./index.html"
           >Web<span class="logo-studio-footer">Studio</span></a
         >
