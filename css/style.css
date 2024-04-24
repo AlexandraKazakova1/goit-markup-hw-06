@@ -9,10 +9,10 @@ body {
   background-color: #fff;
   max-width: 1440px;
 }
-ul li {
+ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 a {
   font-size: 12px;
@@ -31,14 +31,16 @@ img {
   max-width: 100%;
 }
 .visually-hidden {
-  position: absolute !important;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
+  position: absolute;
   width: 1px;
+  height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* nav */
 .head-nav {
