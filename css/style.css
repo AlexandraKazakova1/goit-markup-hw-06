@@ -138,6 +138,7 @@ address {
 }
 
 /* main */
+/* section 1 */
 .title {
   background-image: linear-gradient(
       to bottom,
@@ -188,7 +189,7 @@ address {
   background-color: #404bbf;
 }
 
-/* sectoin 2 */
+/* section 2 */
 .icon {
   display: flex;
   align-items: center;
@@ -253,10 +254,10 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social-link:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .icon-social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .icon-social-link-icon {
   fill: #f4f4fd;
