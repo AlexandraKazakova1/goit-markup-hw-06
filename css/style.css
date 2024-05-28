@@ -107,7 +107,7 @@ address {
   color: #404bbf;
 }
 
-.nav::after {
+.nav-studio::after {
   content: "";
   left: 0;
   border-radius: 2px;
