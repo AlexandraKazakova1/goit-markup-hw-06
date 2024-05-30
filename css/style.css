@@ -96,7 +96,7 @@ address {
   letter-spacing: 0.02em;
   line-height: 1.5;
   display: block;
-  color: #404bbf;
+  color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
   position: relative;
@@ -106,7 +106,10 @@ address {
 .nav:focus {
   color: #404bbf;
 }
-
+.nav-studio {
+  position: relative;
+  color: #404bbf;
+}
 .nav-studio::after {
   content: "";
   left: 0;
