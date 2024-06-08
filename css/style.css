@@ -502,10 +502,12 @@ address {
 .modal-close-button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-close-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-close-svg {
@@ -557,7 +559,8 @@ address {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus. .modal-input:hover {
+.modal-input:focus,
+.modal-input:hover {
   border-color: #4d5ae5;
 }
 .modal-input:focus + .modal-icon-person {
@@ -565,7 +568,7 @@ address {
 }
 
 .modal-field-comment {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-textarea {
   width: 100%;
@@ -590,13 +593,14 @@ address {
 
 .modal-check {
 }
-/* .form-checkbox {
-  color: #8e8f99;
+.form-checkbox {
+  margin-bottom: 24px;
+}
+/* color: #8e8f99;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-bottom: 24px;
+  
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .form-checkbox:focus {
   border-color: #4d5ae5;
@@ -629,7 +633,7 @@ address {
   /* margin-right: 8px; */
 }
 
-.modal-check:checked + .privacy {
+.modal-check:checked + privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -658,9 +662,6 @@ address {
   text-align: center;
 }
 
-input:checked {
-}
-
 /* -------EMAIL FOOTER-------- */
 
 .email-footer-div {
@@ -669,6 +670,7 @@ input:checked {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form-label {
   gap: 24px;
@@ -680,7 +682,7 @@ input:checked {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  font: size 12px;
+  font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
@@ -715,4 +717,7 @@ input:checked {
 .button-email-footer-svg {
   fill: #fff;
   margin-left: 16px;
+}
+.privacy-link {
+  color: #4d5ae5;
 }
