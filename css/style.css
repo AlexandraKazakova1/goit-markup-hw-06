@@ -998,6 +998,9 @@ address {
   .section-card {
     width: calc((100% - 72px) / 4);
   }
+  .section-card img {
+    min-width: 100%;
+  }
   .portfolio {
     padding: 120px 0;
   }
